@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left bottom,rgba(0, 0, 0, 0.658),rgb(212, 233, 78));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000b9;
+}
+
+.Convo{
+    background: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px rgba(0,0,0,0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0px 8px 10px rgba(0,0,0,0.3);
+}
+
+.heading{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input{
+    width: 220px;
+    font-family: monospace,sans-serif;
+    float: right;
+    padding: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.174);
+    color: rgba(243, 127, 39, 0.944);
+    font-size: 18px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.3);
+    border: transparent; 
+    text-align: center;
+}
+input::placeholder{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.367);
+    font-family:monospace,sans-serif;
+}

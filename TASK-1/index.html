@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Convo">
+        <h1  class="heading">🌞Temperature Converter🌙</h1>
+        <div class="container">
+            <label for="celsius">Celsius (°C)</label>
+            <input type="number" id="celsius" class="celsius" name="celsius" oninput= "celsiusConv()" placeholder="Enter Temperature....">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit (°F)</label>
+            <input type="number" id="fahrenheit"name="fahrenheit" class="fahrenheit" oninput = "fahrenConv()" placeholder="Enter Temperature....">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
